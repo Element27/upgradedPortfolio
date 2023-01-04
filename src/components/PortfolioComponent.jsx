@@ -13,7 +13,9 @@ function PortfolioComponent({ imgSrc, portfolioLink, portfolioDesc, portfolioHea
         <div >
           <h3 className='text-xl md:text-3xl font-bold mb-3 md:mb-2'>{portfolioHeading}</h3>
           <p className='text-xs md:text-sm font-semibold mb-3'>{portfolioDesc}</p>
-          <a href='link'>{portfolioLink}</a>
+          <a
+          className='w-full sm:w-fit  h-10 px-8 rounded-md border-solid border-white border-2' 
+          href='link'>{portfolioLink}</a>
         </div>
       </div>
 

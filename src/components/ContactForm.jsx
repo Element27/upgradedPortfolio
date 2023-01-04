@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactForm() {
   return (
-    <div className='w-full h-[75vh] flex flex-col justify-center items-center lg:items-start p-6 lg:p-12'>
+    <div className='w-full h-[75vh] flex flex-col justify-center items-center lg:items-start p-2 lg:p-12'>
       <form className='w-full md:w-[70%] mx-auto p-5 md:p-10 bg-[#ffffff] bg-opacity-5 backdrop-blur-md rounded drop-shadow-lg'>
         <div className='flex flex-col mb-4'>
           <label
@@ -30,7 +30,7 @@ function ContactForm() {
             placeholder='talk to me'
           ></textarea>
         </div>
-        <button>Send</button>
+        <button className='w-full sm:w-fit  h-10 px-8 rounded-md border-solid border-white border-2'>Send</button>
       </form>
     </div>
   )

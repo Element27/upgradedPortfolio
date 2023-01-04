@@ -8,13 +8,13 @@ import pcm from './assets/pcm.png'
 function Portfolio() {
 
   return (
-    <div>
+    <div
+      id='Portfolio'>
       <PortfolioComponent
         imgSrc={shot}
         portfolioHeading="Headers"
         portfolioDesc="This is the portfolio description, e suppose long pass this but this is all i can do right now"
         portfolioLink="thisisthelinkdotcom"
-
       />
 
       <PortfolioComponent

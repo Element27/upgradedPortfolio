@@ -8,7 +8,9 @@ import Icons from './Icons'
 // #484AA3
 function ContactMe() {
   return (
-    <div className=''>
+    <div
+      className=''
+      id='Contact'>
       <ContactForm />
       <Icons />
     </div>
